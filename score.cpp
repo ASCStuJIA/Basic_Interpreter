@@ -92,14 +92,14 @@ void parseArguments(int argc, char **argv) {
 }
 
 void clearTempFiles() {
-    int r = system("rm test_ans test_out -f");
+    int r = system("rm -f test_ans test_out");
     (void) r;
 }
 
 int testTrace(const char *trace) {
     clearTempFiles();
-    if (system((string() + "cat " + trace + " | timeout 1 " + standerBasic + " > test_ans 2> /dev/null").c_str()) != 0) return 1;
-    if (system((string() + "cat " + trace + " | timeout 1 " + studentBasic + " > test_out 2> /dev/null").c_str()) != 0) return 2;
+    if (system((string() + "cat " + trace + " | " + standerBasic + " > test_ans 2> /dev/null").c_str()) != 0) return 1;
+    if (system((string() + "cat " + trace + " | " + studentBasic + " > test_out 2> /dev/null").c_str()) != 0) return 2;
     if (system("diff test_ans test_out > /dev/null 2> /dev/null")) return 4;
     clearTempFiles();
     return 0;
