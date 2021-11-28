@@ -44,6 +44,9 @@ Statement *StatementForParser(bool whetherlineNum, string tag) {
         return new REM(exp);
     } else if (token == "LET") {
         Expression *exp = parseExp(scanner);
+        string tmp1 = scanner.nextToken();
+        if (tmp1 == "LET" || tmp1 == "INPUT" || tmp1 == "QUIT" || tmp1 == "PRINT")
+            error("SYNTAX ERROR");
         return new LET(exp);
     } else if (token == "PRINT") {
         Expression *exp = parseExp((scanner));

@@ -24,12 +24,12 @@ using namespace std;
 
 bool isNum(string str) {
     stringstream sin(str);
-    int ii;
+    //int ii;
     double dd;
     char cc;
-    if (sin >> dd) { return 0; }
+    if (!(sin >> dd)) { return 0; }
     if (sin >> cc) { return 0; }
-    if (sin >> ii) { return 1; }
+    //if (sin >> ii) { return 1; }
     return 1;
 }
 

@@ -93,7 +93,7 @@ void Program::PRINT() {
     if (!Lines.empty()) {
         auto it = Lines.begin();
         for (; it != Lines.end(); it++) {
-            cout << it->second.lineContent;
+            cout << it->second.lineContent<<endl;
         }
     }
 }
