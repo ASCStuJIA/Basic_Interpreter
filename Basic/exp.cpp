@@ -5,7 +5,7 @@
  */
 
 #include <string>
-#include "../../../Desktop/BASIC-Interpreter-main/StanfordCPPLib/error.h"
+#include "../StanfordCPPLib/error.h"
 #include "evalstate.h"
 #include "exp.h"
 

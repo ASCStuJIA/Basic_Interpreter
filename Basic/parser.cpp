@@ -12,7 +12,7 @@
 
 #include "../StanfordCPPLib/error.h"
 #include "../StanfordCPPLib/strlib.h"
-#include "../../../Desktop/BASIC-Interpreter-main/StanfordCPPLib/tokenscanner.h"
+#include "../StanfordCPPLib/tokenscanner.h"
 
 using namespace std;
 
