@@ -10,10 +10,10 @@
 #include "exp.h"
 #include "parser.h"
 #include "program.h"
-#include "../../../Desktop/BASIC-Interpreter-main/StanfordCPPLib/error.h"
+#include "../StanfordCPPLib/error.h"
 #include "../../../Desktop/BASIC-Interpreter-main/StanfordCPPLib/tokenscanner.h"
 
-#include "../../../Desktop/BASIC-Interpreter-main/StanfordCPPLib/simpio.h"
+#include "../StanfordCPPLib/simpio.h"
 #include "../../../Desktop/BASIC-Interpreter-main/StanfordCPPLib/strlib.h"
 //add some headfiles
 #include"statement.h"
