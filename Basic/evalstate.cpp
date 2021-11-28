@@ -9,7 +9,7 @@
 #include <string>
 #include "evalstate.h"
 
-#include "../../../Desktop/BASIC-Interpreter-main/StanfordCPPLib/map.h"
+#include "../StanfordCPPLib/map.h"
 
 using namespace std;
 
