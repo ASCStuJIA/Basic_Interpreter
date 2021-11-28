@@ -9,7 +9,7 @@
 #include "evalstate.h"
 #include "exp.h"
 
-#include "../../../Desktop/BASIC-Interpreter-main/StanfordCPPLib/strlib.h"
+#include "../StanfordCPPLib/strlib.h"
 
 using namespace std;
 

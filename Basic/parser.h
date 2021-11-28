@@ -10,7 +10,7 @@
 #include <string>
 #include "exp.h"
 
-#include "../../../Desktop/BASIC-Interpreter-main/StanfordCPPLib/tokenscanner.h"
+#include "../StanfordCPPLib/tokenscanner.h"
 
 /*
  * Function: parseExp
