@@ -54,23 +54,32 @@ CMakeFiles/code.dir/Basic/parser.cpp.o
 CMakeFiles/code.dir/Basic/program.cpp.o
  /Users/jiajianing/CLionProjects/BasicInterpreter/Basic/evalstate.h
  /Users/jiajianing/CLionProjects/BasicInterpreter/Basic/exp.h
+ /Users/jiajianing/CLionProjects/BasicInterpreter/Basic/parser.h
  /Users/jiajianing/CLionProjects/BasicInterpreter/Basic/program.cpp
  /Users/jiajianing/CLionProjects/BasicInterpreter/Basic/program.h
  /Users/jiajianing/CLionProjects/BasicInterpreter/Basic/statement.h
  /Users/jiajianing/Desktop/BASIC-Interpreter-main/StanfordCPPLib/foreach.h
  /Users/jiajianing/Desktop/BASIC-Interpreter-main/StanfordCPPLib/map.h
+ /Users/jiajianing/Desktop/BASIC-Interpreter-main/StanfordCPPLib/private/tokenpatch.h
  /Users/jiajianing/Desktop/BASIC-Interpreter-main/StanfordCPPLib/stack.h
  /Users/jiajianing/Desktop/BASIC-Interpreter-main/StanfordCPPLib/strlib.h
+ /Users/jiajianing/Desktop/BASIC-Interpreter-main/StanfordCPPLib/tokenscanner.h
  /Users/jiajianing/Desktop/BASIC-Interpreter-main/StanfordCPPLib/vector.h
 CMakeFiles/code.dir/Basic/statement.cpp.o
  /Users/jiajianing/CLionProjects/BasicInterpreter/Basic/evalstate.h
  /Users/jiajianing/CLionProjects/BasicInterpreter/Basic/exp.h
+ /Users/jiajianing/CLionProjects/BasicInterpreter/Basic/parser.h
  /Users/jiajianing/CLionProjects/BasicInterpreter/Basic/statement.cpp
  /Users/jiajianing/CLionProjects/BasicInterpreter/Basic/statement.h
+ /Users/jiajianing/CLionProjects/BasicInterpreter/StanfordCPPLib/error.h
+ /Users/jiajianing/CLionProjects/BasicInterpreter/StanfordCPPLib/private/main.h
+ /Users/jiajianing/CLionProjects/BasicInterpreter/StanfordCPPLib/private/tokenpatch.h
+ /Users/jiajianing/CLionProjects/BasicInterpreter/StanfordCPPLib/tokenscanner.h
  /Users/jiajianing/Desktop/BASIC-Interpreter-main/StanfordCPPLib/foreach.h
  /Users/jiajianing/Desktop/BASIC-Interpreter-main/StanfordCPPLib/map.h
  /Users/jiajianing/Desktop/BASIC-Interpreter-main/StanfordCPPLib/stack.h
  /Users/jiajianing/Desktop/BASIC-Interpreter-main/StanfordCPPLib/strlib.h
+ /Users/jiajianing/Desktop/BASIC-Interpreter-main/StanfordCPPLib/tokenscanner.h
  /Users/jiajianing/Desktop/BASIC-Interpreter-main/StanfordCPPLib/vector.h
 CMakeFiles/code.dir/StanfordCPPLib/error.cpp.o
  /Users/jiajianing/CLionProjects/BasicInterpreter/StanfordCPPLib/error.cpp

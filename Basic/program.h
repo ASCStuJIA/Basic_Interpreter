@@ -10,7 +10,7 @@
 
 #include <string>
 #include "statement.h"
-
+#include<map>
 using namespace std;
 
 /*
@@ -135,11 +135,17 @@ public:
  */
 
     int getNextLineNumber(int lineNumber);
+    void PRINT();
+    void RUN(EvalState & state);
 
 private:
-
+struct Line{
+    int lineNum;
+    string lineContent;
+    Statement *lineMeaning = nullptr;
+};
 // Fill this in with whatever types and instance variables you need
-
+map<int ,Line> Lines;
 };
 
 #endif
