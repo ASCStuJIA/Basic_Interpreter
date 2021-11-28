@@ -11,10 +11,10 @@
 #include "parser.h"
 #include "program.h"
 #include "../StanfordCPPLib/error.h"
-//#include "../../../Desktop/BASIC-Interpreter-main/StanfordCPPLib/tokenscanner.h"
+#include "../StanfordCPPLib/tokenscanner.h"
 
 #include "../StanfordCPPLib/simpio.h"
-//#include "../../../Desktop/BASIC-Interpreter-main/StanfordCPPLib/strlib.h"
+#include "../StanfordCPPLib/strlib.h"
 //add some headfiles
 #include"statement.h"
 
@@ -40,7 +40,7 @@ void processLine(string line, Program &program, EvalState &state);
 int main() {
     EvalState state;
     Program program;
-    cout << "Stub implementation of BASIC" << endl;
+    //cout << "Stub implementation of BASIC" << endl;
     while (true) {
         try {//检查错误，有错误就扔给catch执行
             string input = getLine();

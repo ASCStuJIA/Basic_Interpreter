@@ -19,22 +19,42 @@ parser.h
 /Users/jiajianing/CLionProjects/BasicInterpreter/Basic/parser.h
 program.h
 /Users/jiajianing/CLionProjects/BasicInterpreter/Basic/program.h
-../../../Desktop/BASIC-Interpreter-main/StanfordCPPLib/error.h
-/Users/jiajianing/Desktop/BASIC-Interpreter-main/StanfordCPPLib/error.h
-../../../Desktop/BASIC-Interpreter-main/StanfordCPPLib/tokenscanner.h
-/Users/jiajianing/Desktop/BASIC-Interpreter-main/StanfordCPPLib/tokenscanner.h
-../../../Desktop/BASIC-Interpreter-main/StanfordCPPLib/simpio.h
-/Users/jiajianing/Desktop/BASIC-Interpreter-main/StanfordCPPLib/simpio.h
-../../../Desktop/BASIC-Interpreter-main/StanfordCPPLib/strlib.h
-/Users/jiajianing/Desktop/BASIC-Interpreter-main/StanfordCPPLib/strlib.h
+../StanfordCPPLib/error.h
+/Users/jiajianing/CLionProjects/BasicInterpreter/StanfordCPPLib/error.h
+../StanfordCPPLib/tokenscanner.h
+/Users/jiajianing/CLionProjects/BasicInterpreter/StanfordCPPLib/tokenscanner.h
+../StanfordCPPLib/simpio.h
+/Users/jiajianing/CLionProjects/BasicInterpreter/StanfordCPPLib/simpio.h
+../StanfordCPPLib/strlib.h
+/Users/jiajianing/CLionProjects/BasicInterpreter/StanfordCPPLib/strlib.h
 statement.h
 /Users/jiajianing/CLionProjects/BasicInterpreter/Basic/statement.h
+
+/Users/jiajianing/CLionProjects/BasicInterpreter/Basic/evalstate.cpp
+string
+-
+evalstate.h
+/Users/jiajianing/CLionProjects/BasicInterpreter/Basic/evalstate.h
+../../../Desktop/BASIC-Interpreter-main/StanfordCPPLib/map.h
+/Users/jiajianing/Desktop/BASIC-Interpreter-main/StanfordCPPLib/map.h
 
 /Users/jiajianing/CLionProjects/BasicInterpreter/Basic/evalstate.h
 string
 -
-../../../Desktop/BASIC-Interpreter-main/StanfordCPPLib/map.h
-/Users/jiajianing/Desktop/BASIC-Interpreter-main/StanfordCPPLib/map.h
+../StanfordCPPLib/map.h
+/Users/jiajianing/CLionProjects/BasicInterpreter/StanfordCPPLib/map.h
+
+/Users/jiajianing/CLionProjects/BasicInterpreter/Basic/exp.cpp
+string
+-
+../../../Desktop/BASIC-Interpreter-main/StanfordCPPLib/error.h
+/Users/jiajianing/Desktop/BASIC-Interpreter-main/StanfordCPPLib/error.h
+evalstate.h
+/Users/jiajianing/CLionProjects/BasicInterpreter/Basic/evalstate.h
+exp.h
+/Users/jiajianing/CLionProjects/BasicInterpreter/Basic/exp.h
+../StanfordCPPLib/strlib.h
+/Users/jiajianing/CLionProjects/BasicInterpreter/StanfordCPPLib/strlib.h
 
 /Users/jiajianing/CLionProjects/BasicInterpreter/Basic/exp.h
 evalstate.h
@@ -49,10 +69,10 @@ exp.h
 /Users/jiajianing/CLionProjects/BasicInterpreter/Basic/exp.h
 parser.h
 /Users/jiajianing/CLionProjects/BasicInterpreter/Basic/parser.h
-../../../Desktop/BASIC-Interpreter-main/StanfordCPPLib/error.h
-/Users/jiajianing/Desktop/BASIC-Interpreter-main/StanfordCPPLib/error.h
-../../../Desktop/BASIC-Interpreter-main/StanfordCPPLib/strlib.h
-/Users/jiajianing/Desktop/BASIC-Interpreter-main/StanfordCPPLib/strlib.h
+../StanfordCPPLib/error.h
+/Users/jiajianing/CLionProjects/BasicInterpreter/StanfordCPPLib/error.h
+../StanfordCPPLib/strlib.h
+/Users/jiajianing/CLionProjects/BasicInterpreter/StanfordCPPLib/strlib.h
 ../../../Desktop/BASIC-Interpreter-main/StanfordCPPLib/tokenscanner.h
 /Users/jiajianing/Desktop/BASIC-Interpreter-main/StanfordCPPLib/tokenscanner.h
 
@@ -61,8 +81,8 @@ string
 -
 exp.h
 /Users/jiajianing/CLionProjects/BasicInterpreter/Basic/exp.h
-../../../Desktop/BASIC-Interpreter-main/StanfordCPPLib/tokenscanner.h
-/Users/jiajianing/Desktop/BASIC-Interpreter-main/StanfordCPPLib/tokenscanner.h
+../StanfordCPPLib/tokenscanner.h
+/Users/jiajianing/CLionProjects/BasicInterpreter/StanfordCPPLib/tokenscanner.h
 
 /Users/jiajianing/CLionProjects/BasicInterpreter/Basic/program.cpp
 program.h
@@ -106,9 +126,47 @@ exception
 private/main.h
 /Users/jiajianing/CLionProjects/BasicInterpreter/StanfordCPPLib/private/main.h
 
+/Users/jiajianing/CLionProjects/BasicInterpreter/StanfordCPPLib/foreach.h
+iterator
+-
+map
+-
+cstddef
+-
+cstring
+-
+ios
+-
+fstream
+-
+sstream
+-
+
+/Users/jiajianing/CLionProjects/BasicInterpreter/StanfordCPPLib/map.h
+cstdlib
+-
+foreach.h
+/Users/jiajianing/CLionProjects/BasicInterpreter/StanfordCPPLib/foreach.h
+stack.h
+/Users/jiajianing/CLionProjects/BasicInterpreter/StanfordCPPLib/stack.h
+
 /Users/jiajianing/CLionProjects/BasicInterpreter/StanfordCPPLib/private/main.h
 
 /Users/jiajianing/CLionProjects/BasicInterpreter/StanfordCPPLib/private/tokenpatch.h
+
+/Users/jiajianing/CLionProjects/BasicInterpreter/StanfordCPPLib/simpio.h
+string
+-
+
+/Users/jiajianing/CLionProjects/BasicInterpreter/StanfordCPPLib/stack.h
+vector.h
+/Users/jiajianing/CLionProjects/BasicInterpreter/StanfordCPPLib/vector.h
+
+/Users/jiajianing/CLionProjects/BasicInterpreter/StanfordCPPLib/strlib.h
+iostream
+-
+string
+-
 
 /Users/jiajianing/CLionProjects/BasicInterpreter/StanfordCPPLib/tokenscanner.h
 iostream
@@ -117,6 +175,20 @@ string
 -
 private/tokenpatch.h
 /Users/jiajianing/CLionProjects/BasicInterpreter/StanfordCPPLib/private/tokenpatch.h
+
+/Users/jiajianing/CLionProjects/BasicInterpreter/StanfordCPPLib/vector.h
+iterator
+-
+iostream
+-
+sstream
+-
+string
+-
+foreach.h
+/Users/jiajianing/CLionProjects/BasicInterpreter/StanfordCPPLib/foreach.h
+strlib.h
+/Users/jiajianing/CLionProjects/BasicInterpreter/StanfordCPPLib/strlib.h
 
 /Users/jiajianing/Desktop/BASIC-Interpreter-main/StanfordCPPLib/error.h
 string
@@ -153,10 +225,6 @@ stack.h
 /Users/jiajianing/Desktop/BASIC-Interpreter-main/StanfordCPPLib/private/main.h
 
 /Users/jiajianing/Desktop/BASIC-Interpreter-main/StanfordCPPLib/private/tokenpatch.h
-
-/Users/jiajianing/Desktop/BASIC-Interpreter-main/StanfordCPPLib/simpio.h
-string
--
 
 /Users/jiajianing/Desktop/BASIC-Interpreter-main/StanfordCPPLib/stack.h
 vector.h

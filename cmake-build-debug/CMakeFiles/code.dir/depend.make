@@ -8,19 +8,20 @@ CMakeFiles/code.dir/Basic/Basic.cpp.o: \
  ../Basic/parser.h \
  ../Basic/program.h \
  ../Basic/statement.h \
- /Users/jiajianing/Desktop/BASIC-Interpreter-main/StanfordCPPLib/error.h \
- /Users/jiajianing/Desktop/BASIC-Interpreter-main/StanfordCPPLib/foreach.h \
- /Users/jiajianing/Desktop/BASIC-Interpreter-main/StanfordCPPLib/map.h \
- /Users/jiajianing/Desktop/BASIC-Interpreter-main/StanfordCPPLib/private/main.h \
- /Users/jiajianing/Desktop/BASIC-Interpreter-main/StanfordCPPLib/private/tokenpatch.h \
- /Users/jiajianing/Desktop/BASIC-Interpreter-main/StanfordCPPLib/simpio.h \
- /Users/jiajianing/Desktop/BASIC-Interpreter-main/StanfordCPPLib/stack.h \
- /Users/jiajianing/Desktop/BASIC-Interpreter-main/StanfordCPPLib/strlib.h \
- /Users/jiajianing/Desktop/BASIC-Interpreter-main/StanfordCPPLib/tokenscanner.h \
- /Users/jiajianing/Desktop/BASIC-Interpreter-main/StanfordCPPLib/vector.h
+ ../StanfordCPPLib/error.h \
+ ../StanfordCPPLib/foreach.h \
+ ../StanfordCPPLib/map.h \
+ ../StanfordCPPLib/private/main.h \
+ ../StanfordCPPLib/private/tokenpatch.h \
+ ../StanfordCPPLib/simpio.h \
+ ../StanfordCPPLib/stack.h \
+ ../StanfordCPPLib/strlib.h \
+ ../StanfordCPPLib/tokenscanner.h \
+ ../StanfordCPPLib/vector.h
 CMakeFiles/code.dir/Basic/evalstate.cpp.o: \
  ../Basic/evalstate.cpp \
  ../Basic/evalstate.h \
+ ../StanfordCPPLib/map.h \
  /Users/jiajianing/Desktop/BASIC-Interpreter-main/StanfordCPPLib/foreach.h \
  /Users/jiajianing/Desktop/BASIC-Interpreter-main/StanfordCPPLib/map.h \
  /Users/jiajianing/Desktop/BASIC-Interpreter-main/StanfordCPPLib/stack.h \
@@ -30,27 +31,28 @@ CMakeFiles/code.dir/Basic/exp.cpp.o: \
  ../Basic/evalstate.h \
  ../Basic/exp.cpp \
  ../Basic/exp.h \
+ ../StanfordCPPLib/foreach.h \
+ ../StanfordCPPLib/map.h \
+ ../StanfordCPPLib/stack.h \
+ ../StanfordCPPLib/strlib.h \
+ ../StanfordCPPLib/vector.h \
  /Users/jiajianing/Desktop/BASIC-Interpreter-main/StanfordCPPLib/error.h \
- /Users/jiajianing/Desktop/BASIC-Interpreter-main/StanfordCPPLib/foreach.h \
- /Users/jiajianing/Desktop/BASIC-Interpreter-main/StanfordCPPLib/map.h \
- /Users/jiajianing/Desktop/BASIC-Interpreter-main/StanfordCPPLib/private/main.h \
- /Users/jiajianing/Desktop/BASIC-Interpreter-main/StanfordCPPLib/stack.h \
- /Users/jiajianing/Desktop/BASIC-Interpreter-main/StanfordCPPLib/strlib.h \
- /Users/jiajianing/Desktop/BASIC-Interpreter-main/StanfordCPPLib/vector.h
+ /Users/jiajianing/Desktop/BASIC-Interpreter-main/StanfordCPPLib/private/main.h
 CMakeFiles/code.dir/Basic/parser.cpp.o: \
  ../Basic/evalstate.h \
  ../Basic/exp.h \
  ../Basic/parser.cpp \
  ../Basic/parser.h \
- /Users/jiajianing/Desktop/BASIC-Interpreter-main/StanfordCPPLib/error.h \
- /Users/jiajianing/Desktop/BASIC-Interpreter-main/StanfordCPPLib/foreach.h \
- /Users/jiajianing/Desktop/BASIC-Interpreter-main/StanfordCPPLib/map.h \
- /Users/jiajianing/Desktop/BASIC-Interpreter-main/StanfordCPPLib/private/main.h \
+ ../StanfordCPPLib/error.h \
+ ../StanfordCPPLib/foreach.h \
+ ../StanfordCPPLib/map.h \
+ ../StanfordCPPLib/private/main.h \
+ ../StanfordCPPLib/stack.h \
+ ../StanfordCPPLib/strlib.h \
+ ../StanfordCPPLib/tokenscanner.h \
+ ../StanfordCPPLib/vector.h \
  /Users/jiajianing/Desktop/BASIC-Interpreter-main/StanfordCPPLib/private/tokenpatch.h \
- /Users/jiajianing/Desktop/BASIC-Interpreter-main/StanfordCPPLib/stack.h \
- /Users/jiajianing/Desktop/BASIC-Interpreter-main/StanfordCPPLib/strlib.h \
- /Users/jiajianing/Desktop/BASIC-Interpreter-main/StanfordCPPLib/tokenscanner.h \
- /Users/jiajianing/Desktop/BASIC-Interpreter-main/StanfordCPPLib/vector.h
+ /Users/jiajianing/Desktop/BASIC-Interpreter-main/StanfordCPPLib/tokenscanner.h
 CMakeFiles/code.dir/Basic/program.cpp.o: \
  ../Basic/evalstate.h \
  ../Basic/exp.h \
@@ -58,13 +60,13 @@ CMakeFiles/code.dir/Basic/program.cpp.o: \
  ../Basic/program.cpp \
  ../Basic/program.h \
  ../Basic/statement.h \
- /Users/jiajianing/Desktop/BASIC-Interpreter-main/StanfordCPPLib/foreach.h \
- /Users/jiajianing/Desktop/BASIC-Interpreter-main/StanfordCPPLib/map.h \
- /Users/jiajianing/Desktop/BASIC-Interpreter-main/StanfordCPPLib/private/tokenpatch.h \
- /Users/jiajianing/Desktop/BASIC-Interpreter-main/StanfordCPPLib/stack.h \
- /Users/jiajianing/Desktop/BASIC-Interpreter-main/StanfordCPPLib/strlib.h \
- /Users/jiajianing/Desktop/BASIC-Interpreter-main/StanfordCPPLib/tokenscanner.h \
- /Users/jiajianing/Desktop/BASIC-Interpreter-main/StanfordCPPLib/vector.h
+ ../StanfordCPPLib/foreach.h \
+ ../StanfordCPPLib/map.h \
+ ../StanfordCPPLib/private/tokenpatch.h \
+ ../StanfordCPPLib/stack.h \
+ ../StanfordCPPLib/strlib.h \
+ ../StanfordCPPLib/tokenscanner.h \
+ ../StanfordCPPLib/vector.h
 CMakeFiles/code.dir/Basic/statement.cpp.o: \
  ../Basic/evalstate.h \
  ../Basic/exp.h \
@@ -72,15 +74,14 @@ CMakeFiles/code.dir/Basic/statement.cpp.o: \
  ../Basic/statement.cpp \
  ../Basic/statement.h \
  ../StanfordCPPLib/error.h \
+ ../StanfordCPPLib/foreach.h \
+ ../StanfordCPPLib/map.h \
  ../StanfordCPPLib/private/main.h \
  ../StanfordCPPLib/private/tokenpatch.h \
+ ../StanfordCPPLib/stack.h \
+ ../StanfordCPPLib/strlib.h \
  ../StanfordCPPLib/tokenscanner.h \
- /Users/jiajianing/Desktop/BASIC-Interpreter-main/StanfordCPPLib/foreach.h \
- /Users/jiajianing/Desktop/BASIC-Interpreter-main/StanfordCPPLib/map.h \
- /Users/jiajianing/Desktop/BASIC-Interpreter-main/StanfordCPPLib/stack.h \
- /Users/jiajianing/Desktop/BASIC-Interpreter-main/StanfordCPPLib/strlib.h \
- /Users/jiajianing/Desktop/BASIC-Interpreter-main/StanfordCPPLib/tokenscanner.h \
- /Users/jiajianing/Desktop/BASIC-Interpreter-main/StanfordCPPLib/vector.h
+ ../StanfordCPPLib/vector.h
 CMakeFiles/code.dir/StanfordCPPLib/error.cpp.o: \
  ../StanfordCPPLib/error.cpp \
  ../StanfordCPPLib/error.h \
