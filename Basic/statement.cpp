@@ -34,10 +34,9 @@ Statement *StatementForParser(bool whetherlineNum, string tag) {
     scanner.setInput(tag);
     string token;
     if (whetherlineNum == 1) {
-        token = scanner.nextToken();//有行号，继续获取下一个字段
+        token = scanner.nextToken();//有行号，先获取行号
     }
-    token = scanner.nextToken();//没进if说明有行号，跳过行号，获取下一个字段，及时statement.h里边写的那些basic语法
-
+    token = scanner.nextToken();//有没有行号都在这一步获取Basic语法名
 
     if (token == "REM") {
         Expression *exp = parseExp(scanner);

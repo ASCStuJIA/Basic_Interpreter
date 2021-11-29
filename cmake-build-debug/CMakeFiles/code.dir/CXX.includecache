@@ -6,6 +6,30 @@
 
 #IncludeRegexTransform: 
 
+/Users/jiajianing/CLionProjects/BasicInterpreter/Basic/Basic.cpp
+cctype
+-
+iostream
+-
+string
+-
+exp.h
+/Users/jiajianing/CLionProjects/BasicInterpreter/Basic/exp.h
+parser.h
+/Users/jiajianing/CLionProjects/BasicInterpreter/Basic/parser.h
+program.h
+/Users/jiajianing/CLionProjects/BasicInterpreter/Basic/program.h
+../StanfordCPPLib/error.h
+/Users/jiajianing/CLionProjects/BasicInterpreter/StanfordCPPLib/error.h
+../StanfordCPPLib/tokenscanner.h
+/Users/jiajianing/CLionProjects/BasicInterpreter/StanfordCPPLib/tokenscanner.h
+../StanfordCPPLib/simpio.h
+/Users/jiajianing/CLionProjects/BasicInterpreter/StanfordCPPLib/simpio.h
+../StanfordCPPLib/strlib.h
+/Users/jiajianing/CLionProjects/BasicInterpreter/StanfordCPPLib/strlib.h
+statement.h
+/Users/jiajianing/CLionProjects/BasicInterpreter/Basic/statement.h
+
 /Users/jiajianing/CLionProjects/BasicInterpreter/Basic/evalstate.h
 string
 -
@@ -24,15 +48,13 @@ exp.h
 ../StanfordCPPLib/tokenscanner.h
 /Users/jiajianing/CLionProjects/BasicInterpreter/StanfordCPPLib/tokenscanner.h
 
-/Users/jiajianing/CLionProjects/BasicInterpreter/Basic/statement.cpp
+/Users/jiajianing/CLionProjects/BasicInterpreter/Basic/program.h
 string
 -
 statement.h
 /Users/jiajianing/CLionProjects/BasicInterpreter/Basic/statement.h
-../StanfordCPPLib/error.h
-/Users/jiajianing/CLionProjects/BasicInterpreter/StanfordCPPLib/error.h
-../StanfordCPPLib/tokenscanner.h
-/Users/jiajianing/CLionProjects/BasicInterpreter/StanfordCPPLib/tokenscanner.h
+map
+-
 
 /Users/jiajianing/CLionProjects/BasicInterpreter/Basic/statement.h
 evalstate.h
@@ -77,6 +99,10 @@ stack.h
 /Users/jiajianing/CLionProjects/BasicInterpreter/StanfordCPPLib/private/main.h
 
 /Users/jiajianing/CLionProjects/BasicInterpreter/StanfordCPPLib/private/tokenpatch.h
+
+/Users/jiajianing/CLionProjects/BasicInterpreter/StanfordCPPLib/simpio.h
+string
+-
 
 /Users/jiajianing/CLionProjects/BasicInterpreter/StanfordCPPLib/stack.h
 vector.h
